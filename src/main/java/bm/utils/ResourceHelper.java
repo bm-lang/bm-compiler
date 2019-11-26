@@ -1,9 +1,10 @@
-package bm.parser.util;
+package bm.utils;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
+// TODO merge this class with ResourceUtils
 public class ResourceHelper {
 
     public static String getString(String name, Class<?> slibing) {

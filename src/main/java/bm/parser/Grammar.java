@@ -3,7 +3,7 @@ package bm.parser;
 import bm.parser.target.*;
 import bm.parser.target.expressions.PExpression;
 import bm.parser.target.instructions.PInstruction;
-import bm.parser.util.ClassFinder;
+import bm.utils.ClassFinder;
 import org.gramat.PathResolver;
 import org.gramat.Tape;
 import org.gramat.elements.Element;
@@ -11,12 +11,7 @@ import org.gramat.Gramat;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.URISyntaxException;
-import java.net.URL;
 import java.nio.charset.StandardCharsets;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.Map;
 
 public class Grammar {

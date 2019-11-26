@@ -1,4 +1,4 @@
-package bm.parser.util;
+package bm.utils;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
