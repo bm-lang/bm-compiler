@@ -1,6 +1,9 @@
 rootProject.name = 'bm-compiler'
 
 sourceControl {
+    gitRepository("https://github.com/bm-lang/b5.git") {
+        producesModule("bm-lang:b5")
+    }
     gitRepository("https://github.com/gramat-lang/jgramat.git") {
         producesModule("gramat:jgramat")
     }
